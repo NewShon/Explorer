@@ -1,0 +1,12 @@
+D:\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.BLL.deps.json
+D:\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.BLL.dll
+D:\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.BLL.pdb
+D:\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.DAL.dll
+D:\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.DAL.pdb
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csprojAssemblyReference.cache
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.AssemblyInfoInputs.cache
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.AssemblyInfo.cs
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csproj.CoreCompileInputs.cache
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csproj.CopyComplete
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.dll
+D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.pdb

@@ -1,0 +1,9 @@
+D:\Explorer\Explorer.DAL\bin\Debug\netcoreapp3.1\Explorer.DAL.deps.json
+D:\Explorer\Explorer.DAL\bin\Debug\netcoreapp3.1\Explorer.DAL.dll
+D:\Explorer\Explorer.DAL\bin\Debug\netcoreapp3.1\Explorer.DAL.pdb
+D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.AssemblyInfoInputs.cache
+D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.AssemblyInfo.cs
+D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.csproj.CoreCompileInputs.cache
+D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.dll
+D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.pdb
+D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.csprojAssemblyReference.cache
