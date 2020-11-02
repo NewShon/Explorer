@@ -10,12 +10,12 @@ class Routes extends React.Component {
 	render() {
 		return (
 			<Switch>
-				<Route exact path="/directory" component={ContentContainer} />
-				<Route exact path="/directory/:folderPath" component={ContentContainer} />
+				<Route exact path="/directory/" component={ContentContainer} />
+				<Route exact path="/directory/:folderPath+" component={ContentContainer} />
 				<Route exact path="/register" component={RegistrationContainer} />
 				<Route exact path="/login" component={LoginContainer} />
 				<PrivateRoute exact path="/admin" component={RoleContainer} />
-				<Redirect from="/" to="/directory" />
+				<Redirect from="/" to="/directory/" />
 				<Route children={() => <h2>404 - Not found</h2>} />
 			</Switch>
 		);

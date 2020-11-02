@@ -3,16 +3,16 @@ import baseUrl from '../../../Common/BaseUrl';
 import header from '../../../Common/AxiosHeader';
 
 export const contentRequested = (folderPath, history) => {
-	let path = `${baseUrl}/Folder`;
+	let path = `${baseUrl}/Folder/`;
 	return {
 		type: actionTypes.CONTENT_REQUESTED,
 		request: {
 			method: 'get',
-			url: folderPath ? `${path}/${folderPath}` : path,
+			url: folderPath ? `${path}${folderPath}` : path,
 			headers: header(),
 		},
 		folderPath,
-		history
+		history,
 	};
 };
 

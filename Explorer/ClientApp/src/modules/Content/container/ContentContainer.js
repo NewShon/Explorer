@@ -27,7 +27,10 @@ class ContentContainer extends React.PureComponent {
 	}
 
 	updatePath(path) {
-		return path.replaceAll("\\","%5C");
+		if (path !== undefined) {
+			return path.replaceAll("\\","%5C");
+		}
+		return null;
 	}
 
 	componentDidMount() {
@@ -38,40 +41,50 @@ class ContentContainer extends React.PureComponent {
 		const { contentRequested, history } = this.props;
 		if(this.state.folderPath)
 		{
-			let path = this.updatePath(this.state.folderPath);
-			contentRequested(path, history);
+			let pathForGetContent = this.state.folderPath.replaceAll("/","%5C");
+			if(this.state.folderPath.length === 2){
+				pathForGetContent = this.state.folderPath + "%5C";
+			}
+			contentRequested(pathForGetContent);
 		}
 		else {
-			contentRequested(null,history);
+			contentRequested(null);
 		}
 	}
 
 	onFolderClick = (e, item) => {
-		const { contentRequested, history } = this.props;
+		const { contentRequested, history} = this.props;
 		let path = this.updatePath(item.path);
-		if (path)
-		{
-			contentRequested(path, history);
-		}
-		else {
-			contentRequested(null,history);
-		}
+		let historyPath = "/directory/" + item.path;
+		history.push(historyPath);
+		contentRequested(path);
 	}
 
 	onBackClick = () => {
 		const { path, contentRequested, history } = this.props;
-
-		let rootPath = path.substring(0, path.lastIndexOf("\\") + 0);
-		let backPath = rootPath.includes("\\") ? rootPath : rootPath + "\\";
-		let newBackPath = this.updatePath(backPath);
-
-		contentRequested(newBackPath, history);
+		if (path){
+			if(path.slice(-1) === "\\"){
+				history.push("/");
+				contentRequested(null);
+			}
+			else{
+				let rootPath = path.substring(0, path.lastIndexOf("\\") + 0);
+				let backPath = rootPath.includes("\\") ? rootPath : rootPath + "\\";
+				let updatedBackPath = this.updatePath(backPath);
+				let historyPath = "/directory/" + rootPath;
+				history.push(historyPath);
+				contentRequested(updatedBackPath, history);
+			}
+		}
+		else{
+			contentRequested(null);
+		}
 	}
 
 	onFileDownloadClick = (e, item) => {
 		const { contentFileDownloadRequested, path, history } = this.props;
 		let itemPath =  this.updatePath(item.path);
-		contentFileDownloadRequested(itemPath, item.name,  history, this.updatePath(path));
+		contentFileDownloadRequested(itemPath, item.name, history, this.updatePath(path));
 	}
 
 	onFileChange = event => { 
@@ -98,7 +111,7 @@ class ContentContainer extends React.PureComponent {
 
 		let rootPath = this.updatePath(path);
 		let lastPath = this.state.renamedItem.path;
-		let newPath = path + this.state.textFieldValue;
+		let newPath = path + "\\" + this.state.textFieldValue;
 
 		contentFolderRename(rootPath, lastPath, newPath);
 		
@@ -124,7 +137,7 @@ class ContentContainer extends React.PureComponent {
 	onHandleOk = () => {
 		const { path, contentFolderAdd } = this.props;
 		let rootPath = this.updatePath(path);
-		let folderPath = path + this.state.textFieldValue;
+		let folderPath = path + "\\" + this.state.textFieldValue;
 		contentFolderAdd(rootPath, folderPath);
 
 		this.setState({ openFolderCreate: false });
@@ -141,7 +154,7 @@ class ContentContainer extends React.PureComponent {
 	}
 
 	render() {
-		const { folders, files,  path, role} = this.props;
+		const { folders, files, path, role, isLoaded} = this.props;
 		return (
 			<Content 
 				openFolderCreate={this.state.openFolderCreate}
@@ -164,6 +177,7 @@ class ContentContainer extends React.PureComponent {
 				files={files}
 				path={path}
 				role={role}
+				isLoaded={isLoaded}
 				
 				onFolderClick={this.onFolderClick}
 				onFileDownloadClick={this.onFileDownloadClick}
@@ -184,8 +198,8 @@ ContentContainer.propTypes = {
 	contentFolderDelete: PropTypes.func.isRequired,
 	folders: PropTypes.array.isRequired,
 	files: PropTypes.array.isRequired,
-	path: PropTypes.string.isRequired,
 	role: PropTypes.string.isRequired,
+	isLoaded: PropTypes.bool.isRequired,
 }
 
 const mapStateToProps = state => {
