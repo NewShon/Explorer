@@ -100,41 +100,7 @@ namespace Explorer
                 };
             });
 
-            services.AddSwaggerGen(c =>
-            {
-                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
-                {
-                    Description = "Authorization header using the Bearer scheme",
-                    Name = "Authorization",
-                    In = ParameterLocation.Header,
-                    Type = SecuritySchemeType.ApiKey
-                });
-
-                c.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                    {
-                        new OpenApiSecurityScheme
-                        {
-                            Reference = new OpenApiReference
-                            {
-                                Type = ReferenceType.SecurityScheme,
-                                Id = "Bearer"
-                            },
-                            Name = "Bearer",
-                            In = ParameterLocation.Header
-                        },
-                        new List<string>()
-                    }
-                });
-
-            });
-
             services.AddMvc();
-
-            services.ConfigureSwaggerGen(x =>
-            {
-                x.CustomSchemaIds(x => x.Name);
-            });
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -173,15 +139,7 @@ namespace Explorer
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseSwagger();
-
             DbInitializer.Seed(app);
-
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                c.RoutePrefix = string.Empty;
-            });
 
             app.UseEndpoints(endpoints =>
             {

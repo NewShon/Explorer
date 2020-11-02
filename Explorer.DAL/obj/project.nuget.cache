@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8++630oB3l4enc8ID8rx10TA6PKE/4h56zcPthZBUejvq5Jb06QU1JQCByG0nZz1j8APma5Ln9PYWEv8IsWcw==",
+  "dgSpecHash": "dFdM4dmNzIbLJODdnB9P2MG+9S9wcTGbUF+rM6uCVRsHwHYZ5OBSRAIwl1n3BbvGjKc5Zfaq8oOzwYsJcVlX3A==",
   "success": true,
-  "projectFilePath": "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
+  "projectFilePath": "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiril\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\kiril\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

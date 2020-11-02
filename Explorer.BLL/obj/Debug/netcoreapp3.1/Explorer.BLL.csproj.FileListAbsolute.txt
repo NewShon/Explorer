@@ -10,3 +10,15 @@ D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csproj.CoreCompile
 D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csproj.CopyComplete
 D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.dll
 D:\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.pdb
+D:\Projects\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.BLL.deps.json
+D:\Projects\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.BLL.dll
+D:\Projects\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.BLL.pdb
+D:\Projects\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.DAL.dll
+D:\Projects\Explorer\Explorer.BLL\bin\Debug\netcoreapp3.1\Explorer.DAL.pdb
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csprojAssemblyReference.cache
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.AssemblyInfoInputs.cache
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.AssemblyInfo.cs
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csproj.CoreCompileInputs.cache
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.csproj.CopyComplete
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.dll
+D:\Projects\Explorer\Explorer.BLL\obj\Debug\netcoreapp3.1\Explorer.BLL.pdb

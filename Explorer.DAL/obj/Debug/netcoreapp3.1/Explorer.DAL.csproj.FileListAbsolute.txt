@@ -7,3 +7,12 @@ D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.csproj.CoreCompile
 D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.dll
 D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.pdb
 D:\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.csprojAssemblyReference.cache
+D:\Projects\Explorer\Explorer.DAL\bin\Debug\netcoreapp3.1\Explorer.DAL.deps.json
+D:\Projects\Explorer\Explorer.DAL\bin\Debug\netcoreapp3.1\Explorer.DAL.dll
+D:\Projects\Explorer\Explorer.DAL\bin\Debug\netcoreapp3.1\Explorer.DAL.pdb
+D:\Projects\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.csprojAssemblyReference.cache
+D:\Projects\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.AssemblyInfoInputs.cache
+D:\Projects\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.AssemblyInfo.cs
+D:\Projects\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.csproj.CoreCompileInputs.cache
+D:\Projects\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.dll
+D:\Projects\Explorer\Explorer.DAL\obj\Debug\netcoreapp3.1\Explorer.DAL.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj": {}
+    "D:\\Projects\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj": {}
   },
   "projects": {
-    "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj": {
+    "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj",
+        "projectUniqueName": "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj",
         "projectName": "Explorer.BLL",
-        "projectPath": "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj",
+        "projectPath": "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj",
         "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "D:\\Explorer\\Explorer.BLL\\obj\\",
+        "outputPath": "D:\\Projects\\Explorer\\Explorer.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj": {
-                "projectPath": "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj"
+              "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj": {
+                "projectPath": "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj": {
+    "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
+        "projectUniqueName": "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
         "projectName": "Explorer.DAL",
-        "projectPath": "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
+        "projectPath": "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
         "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "D:\\Explorer\\Explorer.DAL\\obj\\",
+        "outputPath": "D:\\Projects\\Explorer\\Explorer.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -158,14 +158,14 @@
         }
       }
     },
-    "D:\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj": {
+    "D:\\Projects\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj",
+        "projectUniqueName": "D:\\Projects\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj",
         "projectName": "Explorer.MSTests",
-        "projectPath": "D:\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj",
+        "projectPath": "D:\\Projects\\Explorer\\Explorer.MSTests\\Explorer.MSTests.csproj",
         "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "D:\\Explorer\\Explorer.MSTests\\obj\\",
+        "outputPath": "D:\\Projects\\Explorer\\Explorer.MSTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -184,11 +184,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj": {
-                "projectPath": "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj"
+              "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj": {
+                "projectPath": "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj"
               },
-              "D:\\Explorer\\Explorer\\Explorer.csproj": {
-                "projectPath": "D:\\Explorer\\Explorer\\Explorer.csproj"
+              "D:\\Projects\\Explorer\\Explorer\\Explorer.csproj": {
+                "projectPath": "D:\\Projects\\Explorer\\Explorer\\Explorer.csproj"
               }
             }
           }
@@ -249,14 +249,14 @@
         }
       }
     },
-    "D:\\Explorer\\Explorer\\Explorer.csproj": {
+    "D:\\Projects\\Explorer\\Explorer\\Explorer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Explorer\\Explorer\\Explorer.csproj",
+        "projectUniqueName": "D:\\Projects\\Explorer\\Explorer\\Explorer.csproj",
         "projectName": "Explorer",
-        "projectPath": "D:\\Explorer\\Explorer\\Explorer.csproj",
+        "projectPath": "D:\\Projects\\Explorer\\Explorer\\Explorer.csproj",
         "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "D:\\Explorer\\Explorer\\obj\\",
+        "outputPath": "D:\\Projects\\Explorer\\Explorer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -275,8 +275,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj": {
-                "projectPath": "D:\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj"
+              "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj": {
+                "projectPath": "D:\\Projects\\Explorer\\Explorer.BLL\\Explorer.BLL.csproj"
               }
             }
           }

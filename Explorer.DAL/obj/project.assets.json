@@ -1097,11 +1097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
+      "projectUniqueName": "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
       "projectName": "Explorer.DAL",
-      "projectPath": "D:\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
+      "projectPath": "D:\\Projects\\Explorer\\Explorer.DAL\\Explorer.DAL.csproj",
       "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-      "outputPath": "D:\\Explorer\\Explorer.DAL\\obj\\",
+      "outputPath": "D:\\Projects\\Explorer\\Explorer.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
