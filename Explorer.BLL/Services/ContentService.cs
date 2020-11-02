@@ -61,7 +61,13 @@ namespace Explorer.BLL.Services
         {
             if (String.IsNullOrEmpty(folderPath))
             {
-                folderPath = Directory.GetDirectoryRoot(Directory.GetCurrentDirectory());
+                var driversInfo = DriveInfo.GetDrives();
+                var drivers = new ContentDto()
+                {
+                    Folders = _mapper.Map<IList<DriveInfo>, IList<FolderDto>>(driversInfo),
+                    Path = folderPath
+                };
+                return drivers;
             }
 
             var directoryInfo = new DirectoryInfo(folderPath);

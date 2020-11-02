@@ -50,6 +50,11 @@ namespace Explorer.Profiles
                     dest => dest.Path,
                     opt => opt.MapFrom(src => src.FullName));
 
+            CreateMap<DriveInfo, FolderDto>()
+                 .ForMember(
+                    dest => dest.Path,
+                    opt => opt.MapFrom(src => src.Name));
+
             CreateMap<ContentDto, FolderViewModel>().ReverseMap();
         }
     }
